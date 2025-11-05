@@ -114,7 +114,7 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          '📚 Katalog Buku Digital',
+          'Katalog Buku Digital',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 20,
@@ -214,17 +214,6 @@ class HomeView extends StatelessWidget {
                 title: 'Kontak',
                 onTap: () => Get.to(() => ContactView()),
               ),
-              const Divider(height: 32),
-              _buildDrawerItem(
-                icon: Icons.settings,
-                title: 'Pengaturan',
-                onTap: () {},
-              ),
-              _buildDrawerItem(
-                icon: Icons.help_outline,
-                title: 'Bantuan',
-                onTap: () {},
-              ),
             ],
           ),
         ),
@@ -252,7 +241,7 @@ class HomeView extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    'Selamat Datang! 👋',
+                    'Selamat Datang!',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 28,
